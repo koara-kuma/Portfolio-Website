@@ -8,3 +8,17 @@ h1{
     text-align: center;
     font-size: 50px;
 }
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  .social-links img {
+    width: 30px; /* Adjust the size of the icons */
+    height: auto;
+  }
