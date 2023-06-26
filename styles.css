@@ -22,3 +22,11 @@ h1{
     width: 30px; /* Adjust the size of the icons */
     height: auto;
   }
+p{
+    text-indent: 5%;
+}
+
+.bee img{
+    width: 30px;
+    height: auto;
+}
