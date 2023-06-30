@@ -65,3 +65,33 @@ h1{
   width: 500px;
   height: auto;
 }
+
+.discord img{
+  width: 200px;
+  height: auto;
+}
+
+.image-button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: black;
+  outline: none;
+}
+
+.image-button img {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Forces circular shape */
+  object-fit: cover; /* Ensures the image fills the circular shape */
+  outline: none; /* Removes the outline */
+}
+button{
+  background-color: black;
+  outline: none;
+  border: none;
+}
+
