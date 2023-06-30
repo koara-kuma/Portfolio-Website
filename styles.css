@@ -95,3 +95,25 @@ button{
   border: none;
 }
 
+.language-content{
+  padding-left: 100px;
+  padding-top: 20px;
+} 
+
+.language-content h2{
+  text-align: center;
+  font-size: 40px;
+  font-family: roboto;
+  padding-bottom: 20px;
+  color: white;
+}
+.skill-pics img{
+  justify-content: space-between;
+  width: 100px;
+  height: auto;
+}
+.skill-pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
