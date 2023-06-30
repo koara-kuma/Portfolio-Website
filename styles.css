@@ -19,6 +19,49 @@ h1{
   font-size: 40px;
   color: white;
   text-align: center;
-  
+
   /* Additional styles */
+}
+
+.github img{
+  justify-content: center; 
+  align-items: center;
+  width: 50px;
+  height: auto;
+}
+.github{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+.About-Me {
+  padding: 100px;
+}
+.About-Me h2{
+  font-size: 40px;
+  font-family: roboto;
+  text-align: center;
+  color: white;
+}
+.About-Me .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.About-Me .text {
+  width: 600px;
+  overflow-wrap: break-word;
+}
+
+.About-Me .photo {
+  margin-left: 50px; /* Adjust the margin as needed */
+}
+
+.About-Me .photo img {
+  width: 500px;
+  height: auto;
 }

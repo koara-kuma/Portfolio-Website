@@ -1,4 +1,5 @@
 // Get the element
+// Get the element
 const element = document.getElementById('typing-animation');
 
 // Define the text to be animated
@@ -22,12 +23,15 @@ function startAnimation() {
     // Call the function recursively after the specified speed
     setTimeout(startAnimation, speed);
   } else {
-        wait(200);
-        charIndex = 0;
-        element.textContent = '';
-        setTimeout(startAnimation, speed);
+    // Delay before resetting the animation
+    setTimeout(() => {
+      charIndex = 0;
+      element.textContent = '';
+      startAnimation();
+    }, 5000); // Adjust the delay as needed
   }
 }
 
 // Event listener for page load
 window.addEventListener('load', startAnimation);
+
