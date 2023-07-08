@@ -55,15 +55,17 @@ h1{
 .About-Me .text {
   width: 600px;
   overflow-wrap: break-word;
+  padding-right: 350x; /* Adjust the margin as needed */
 }
 
 .About-Me .photo {
-  margin-left: 50px; /* Adjust the margin as needed */
+  padding-left: 350px; /* Adjust the margin as needed */
 }
 
 .About-Me .photo img {
   width: 500px;
   height: auto;
+
 }
 
 .discord img{
@@ -152,3 +154,6 @@ button{
   background-color: black;
 }
 
+.button-container{
+  margin-bottom: 20px;
+}
