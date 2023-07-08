@@ -157,3 +157,13 @@ button{
 .button-container{
   margin-bottom: 20px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.line-image {
+  width: 80%;
+  max-height: 400px;
+}
