@@ -160,10 +160,11 @@ button{
 
 .image-container {
   display: flex;
-  justify-content: center;
 }
 
 .line-image {
-  width: 80%;
-  max-height: 400px;
+  width: 400px;
+  max-height: 200px;
+  justify-content: space-between;
+  justify-content: center;
 }
