@@ -163,6 +163,7 @@ button{
   width: 400px;
   height: 200px;
   margin-right: 10px;
+  filter: grayscale(100%);
 }
 .image-container{
   display: flex;
@@ -174,4 +175,8 @@ button{
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+}
+
+.image-container img:hover{
+  filter: grayscale(0%);
 }
