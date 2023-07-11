@@ -44,23 +44,20 @@ h1{
   text-align: center;
   color: white;
 }
+.About-Me .text {
+  width: 600px;
+  overflow-wrap: break-word;
+  padding-right: 100px;
+}
+
 .About-Me .content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center; /* Aligns content horizontally at the center */
+  align-items: center;
   font-size: 20px;
   font-family: roboto;
 }
 
-.About-Me .text {
-  width: 600px;
-  overflow-wrap: break-word;
-  padding-right: 350x; /* Adjust the margin as needed */
-}
-
-.About-Me .photo {
-  padding-left: 350px; /* Adjust the margin as needed */
-}
 
 .About-Me .photo img {
   width: 500px;
