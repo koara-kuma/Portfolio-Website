@@ -23,14 +23,7 @@ function startAnimation() {
 
     // Call the function recursively after the specified speed
     setTimeout(startAnimation, speed);
-  } else {
-    // Delay before resetting the animation
-    setTimeout(() => {
-      charIndex = 0;
-      element.textContent = '';
-      startAnimation();
-    }, 5000); // Adjust the delay as needed
-  }
+}
 }
 
 // Event listener for page load
